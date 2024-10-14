@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editkaro.in Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        /* Hero Section Styles */
+        .hero {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+            text-align: center;
+            position: relative;
+        }
+        
+        .hero video {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            z-index: -1;
+        }
+        
+        .hero h1 {
+            z-index: 1;
+            color: white;
+            font-size: 4em;
+        }
+
+        .hero p {
+            z-index: 1;
+            color: white;
+            font-size: 1.5em;
+        }
+
+        .hero button {
+            z-index: 1;
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 1.2em;
+        }
+
+        /* Portfolio Section Styles */
+        .portfolio {
+            padding: 20px;
+        }
+
+        .category {
+            margin-bottom: 40px;
+        }
+
+        .video-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        iframe {
+            width: 100%;
+            height: 315px; /* Adjust height as needed */
+            border: none;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #f1f1f1;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <video autoplay loop muted>
+            <source src="hero-video.mp4" type="video/mp4">
+        </video>
+        <h1>Editkaro.in Portfolio</h1>
+        <p>Welcome to our portfolio, showcasing our best work in video editing and production.</p>
+        <button>Learn More</button>
+    </section>
+
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#short-form-videos">Short-form Videos</a></li>
+                <li><a href="#long-form-videos">Long-form Videos</a></li>
+                <li><a href="#gaming-videos">Gaming Videos</a></li>
+                <li><a href="#football-edits">Football Edits</a></li>
+                <li><a href="#ecommerce-ads">eCommerce Ads</a></li>
+                <li><a href="#documentary-style">Documentary Style</a></li>
+                <li><a href="#color-grading">Color Grading</a></li>
+                <li><a href="#anime-videos">Anime Videos</a></li>
+                <li><a href="#ads">Ads</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio">
+        <!-- Short-form Videos -->
+        <div class="category" id="short-form-videos">
+            <h2>Short-form Videos</h2>
+            <div class="video-grid">
+                <iframe src="https://drive.google.com/file/d/1U0ibXya1jmLwoDj1qvnhGfsGOFguAZw-/preview" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <!-- Long-form Videos -->
+        <div class="category" id="long-form-videos">
+            <h2>Long-form Videos</h2>
+            <div class="video-grid">
+                <iframe src="https://drive.google.com/file/d/159CqKZBe0K7TcAe7C9_8YxOqBY2wreRa/preview" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <!-- Gaming Videos -->
+        <div class="category" id="gaming-videos">
+            <h2>Gaming Videos</h2>
+            <div class="video-grid">
+                <iframe src="https://drive.google.com/file/d/13YxW_9aOEQVwZckVR8LZRPK6xAWsxUYe/preview" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <!-- Football Edits -->
+        <div class="category" id="football-edits">
+            <h2>Football Edits</h2>
+            <div class="video-grid">
+                <iframe src="https://drive.google.com/file/d/1LlPn6ACK4uc7RIHHxC617MbpWg3WPwdK/preview" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <!-- eCommerce Ads -->
+        <div class="category" id="ecommerce-ads">
+            <h2>eCommerce Ads</h2>
+            <div class="video-grid">
+                <iframe src="https://drive.google.com/file/d/1WvF0RNkmXyJDmDYicLShM1EJ_hrAvQ0m/preview" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <!-- Documentary Style -->
+        <div class="category" id="documentary-style">
+            <h2>Documentary Style Videos</h2>
+            <div class="video-grid">
+                <iframe src="https://drive.google.com/file/d/1VKakYuT5RbpBcYOVIqp_KXwPzZGtK6fv/preview" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <!-- Color Grading -->
+        <div class="category" id="color-grading">
+            <h2>Color Grading Videos</h2>
+            <div class="video-grid">
+                <iframe src="https://drive.google.com/file/d/1Z44prGPhxNrI-EAnlAIjYPBaCcKsl-70/preview" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <!-- Anime Videos -->
+        <div class="category" id="anime-videos">
+            <h2>Anime Videos</h2>
+            <div class="video-grid">
+                <iframe src="https://drive.google.com/file/d/12DKvqdCPlauiWfQxAFlfANfOa19iT4Cn/preview" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <!-- Ads -->
+        <div class="category" id="ads">
+            <h2>Ads</h2>
+            <div class="video-grid">
+                <iframe src="https://drive.google.com/file/d/1jlj2REncMmiYNLGY1KUby7OCtIkkiqH8/preview" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Copyright Section -->
+    <footer>
+        <p>&copy; 2024 Editkaro.in. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
